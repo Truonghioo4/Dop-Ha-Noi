@@ -22,12 +22,6 @@ const BlogPage = () => {
 							<BlogCard key={blog._id} blog={blog} />
 						))}
 					</div>
-					<Link
-						to={"/search"}
-						className="text-lg text-orange-500 hover:underline text-center"
-					>
-						View all blogs
-					</Link>
 				</div>
 			)}
 		</div>

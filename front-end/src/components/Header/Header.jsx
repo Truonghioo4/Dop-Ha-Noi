@@ -59,7 +59,7 @@ const Header = () => {
 					to="/"
 					className="text-orange-600 font-bold text-xl hover:text-orange-700"
 				>
-					Đốp Đốp
+					Đớp Đớp
 				</Link>
 
 				{/* Hamburger Menu */}
@@ -179,13 +179,13 @@ const Header = () => {
 								className="px-4 py-2 text-orange-600 border border-orange-600 rounded-lg hover:bg-orange-50"
 								onClick={() => setShowLogin(true)}
 							>
-								Sign In
+								Đăng nhập
 							</button>
 							<button
 								className="px-4 py-2 text-white bg-orange-600 rounded-lg hover:bg-orange-700"
 								onClick={() => setShowSignup(true)}
 							>
-								Sign Up
+								Đăng ký
 							</button>
 						</div>
 					)}

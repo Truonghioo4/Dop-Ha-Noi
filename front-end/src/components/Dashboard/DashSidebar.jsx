@@ -50,6 +50,17 @@ const DashSidebar = () => {
 								</SidebarItem>
 							</Link>
 						)}
+						{currentUser.isAdmin && (
+							<Link to="/dashboard?tab=tours">
+								<SidebarItem
+									active={tab === "tours"}
+									icon={FaBlog}
+									className="cursor-pointer"
+								>
+									Manage Tour
+								</SidebarItem>
+							</Link>
+						)}
 					</SidebarItemGroup>
 				</SidebarItems>
 			</Sidebar>
